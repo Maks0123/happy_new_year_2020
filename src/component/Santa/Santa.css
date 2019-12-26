@@ -1,0 +1,18 @@
+.santa {
+    position: absolute;
+    width: 360px;
+    height: 250px;
+    background-image: url('http://www.netanimations.net/Animated_santa_reindeer_flying.gif');
+    background-repeat: no-repeat;
+  }
+
+  .my-node {
+    opacity: 0;
+  }
+  .my-nodeAfter {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
